@@ -1,0 +1,622 @@
+{
+  "Packages": [
+    {
+      "Package": {
+        "Id": "Abbyy.CloudSdk.Client",
+        "Version": "0.9.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\abbyy.cloudsdk.client/0.9.2\\lib/net461/Abbyy.CloudSdk.Client.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\microsoft.net.http/2.2.29\\lib/net45/System.Net.Http.Extensions.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\microsoft.net.http/2.2.29\\lib/net45/System.Net.Http.Primitives.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\newtonsoft.json/12.0.2\\lib/net45/Newtonsoft.Json.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "ABBYY.Flexicapture.ExternalExport",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\abbyy.flexicapture.externalexport/1.0.1\\lib/ControllerInterop.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "Atalasoft.dotImage.Ocr.Abbyy.x64",
+        "Version": "11.1.0.4395"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.dotimage.lib.x64/11.1.0.4395\\lib/net452/Atalasoft.dotImage.Lib.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.dotimage.ocr.abbyy.x64/11.1.0.4395\\lib/net452/Atalasoft.dotImage.Ocr.Abbyy.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.dotimage.ocr.x64/11.1.0.4395\\lib/net452/Atalasoft.dotImage.Ocr.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.dotimage.x64/11.1.0.4395\\lib/net452/Atalasoft.dotImage.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.pdfdoc.x64/11.1.0.4395\\lib/net452/Atalasoft.PdfDoc.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.shared/11.1.0.4395\\lib/net452/Atalasoft.Shared.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "Atalasoft.dotImage.Ocr.Abbyy.x86",
+        "Version": "11.1.0.4395"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.dotimage.lib.x86/11.1.0.4395\\lib/net452/Atalasoft.dotImage.Lib.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.dotimage.ocr.abbyy.x86/11.1.0.4395\\lib/net452/Atalasoft.dotImage.Ocr.Abbyy.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.dotimage.ocr.x86/11.1.0.4395\\lib/net452/Atalasoft.dotImage.Ocr.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.dotimage.x86/11.1.0.4395\\lib/net452/Atalasoft.dotImage.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.pdfdoc.x86/11.1.0.4395\\lib/net452/Atalasoft.PdfDoc.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\atalasoft.shared/11.1.0.4395\\lib/net452/Atalasoft.Shared.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "BitMiracle.Docotic.Pdf",
+        "Version": "5.2.8369"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\bitmiracle.docotic.pdf/5.2.8369\\lib/net40/BitMiracle.Docotic.Pdf.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Database.Activities",
+        "Version": "1.2.6863.32528"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.database.activities/1.2.6863.32528\\lib/net40-Client/Microsoft.Data.ConnectionUI.Dialog.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.database.activities/1.2.6863.32528\\lib/net40-Client/UiPath.Database.Activities.Design.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.database.activities/1.2.6863.32528\\lib/net40-Client/UiPath.Database.Activities.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.database.activities/1.2.6863.32528\\lib/net40-Client/UiPath.Database.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.5.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.excel.activities/2.5.3\\lib/net452/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.excel.activities/2.5.3\\lib/net452/UiPath.Excel.Activities.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.excel.activities/2.5.3\\lib/net452/UiPath.Excel.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\bouncycastle/1.8.1\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/MailKit.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/MimeKit.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/UiPath.Mail.Activities.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/UiPath.Mail.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "2.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\bitmiracle.docotic.pdf/5.2.8369\\lib/net40/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.pdf.activities/2.0.1\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.pdf.activities/2.0.1\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.pdf.activities/2.0.1\\lib/net461/UiPath.PDF.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "19.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.10\\lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\newtonsoft.json/12.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.system.activities/19.4.0\\lib/net461/UiPath.System.Activities.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "19.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\mkajana\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath/19.4.7054.14370\\lib/UiPath.Interop.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.uiautomation.activities/19.4.1\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.AbbyyCloud.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.AbbyyFRE11.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.AbbyyFRE12.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.Core.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\mkajana\\.nuget\\packages\\uipath.vision/1.5.0\\lib/net452/UiPath.Vision.dll"
+      ]
+    }
+  ],
+  "Conflicts": [],
+  "ResolvedDependencies": {
+    "Abbyy.CloudSdk.Client": {
+      "Id": "Abbyy.CloudSdk.Client",
+      "Version": "0.9.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Net.Http",
+          "Item2": "[2.2.29, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[12.0.2, )"
+        }
+      ]
+    },
+    "ABBYY.Flexicapture.ExternalExport": {
+      "Id": "ABBYY.Flexicapture.ExternalExport",
+      "Version": "1.0.1",
+      "Dependencies": []
+    },
+    "Atalasoft.dotImage.Lib.x64": {
+      "Id": "Atalasoft.dotImage.Lib.x64",
+      "Version": "11.1.0.4395",
+      "Dependencies": []
+    },
+    "Atalasoft.dotImage.Lib.x86": {
+      "Id": "Atalasoft.dotImage.Lib.x86",
+      "Version": "11.1.0.4395",
+      "Dependencies": []
+    },
+    "Atalasoft.dotImage.Ocr.Abbyy.x64": {
+      "Id": "Atalasoft.dotImage.Ocr.Abbyy.x64",
+      "Version": "11.1.0.4395",
+      "Dependencies": [
+        {
+          "Item1": "Atalasoft.dotImage.x64",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.dotImage.Lib.x64",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.dotImage.Ocr.x64",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.Shared",
+          "Item2": "[11.1.0.4395, )"
+        }
+      ]
+    },
+    "Atalasoft.dotImage.Ocr.Abbyy.x86": {
+      "Id": "Atalasoft.dotImage.Ocr.Abbyy.x86",
+      "Version": "11.1.0.4395",
+      "Dependencies": [
+        {
+          "Item1": "Atalasoft.dotImage.x86",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.dotImage.Lib.x86",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.dotImage.Ocr.x86",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.Shared",
+          "Item2": "[11.1.0.4395, )"
+        }
+      ]
+    },
+    "Atalasoft.dotImage.Ocr.x64": {
+      "Id": "Atalasoft.dotImage.Ocr.x64",
+      "Version": "11.1.0.4395",
+      "Dependencies": [
+        {
+          "Item1": "Atalasoft.dotImage.x64",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.dotImage.Lib.x64",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.PdfDoc.x64",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.Shared",
+          "Item2": "[11.1.0.4395, )"
+        }
+      ]
+    },
+    "Atalasoft.dotImage.Ocr.x86": {
+      "Id": "Atalasoft.dotImage.Ocr.x86",
+      "Version": "11.1.0.4395",
+      "Dependencies": [
+        {
+          "Item1": "Atalasoft.dotImage.x86",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.dotImage.Lib.x86",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.PdfDoc.x86",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.Shared",
+          "Item2": "[11.1.0.4395, )"
+        }
+      ]
+    },
+    "Atalasoft.dotImage.x64": {
+      "Id": "Atalasoft.dotImage.x64",
+      "Version": "11.1.0.4395",
+      "Dependencies": [
+        {
+          "Item1": "Atalasoft.Shared",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.dotImage.Lib.x64",
+          "Item2": "[11.1.0.4395, )"
+        }
+      ]
+    },
+    "Atalasoft.dotImage.x86": {
+      "Id": "Atalasoft.dotImage.x86",
+      "Version": "11.1.0.4395",
+      "Dependencies": [
+        {
+          "Item1": "Atalasoft.Shared",
+          "Item2": "[11.1.0.4395, )"
+        },
+        {
+          "Item1": "Atalasoft.dotImage.Lib.x86",
+          "Item2": "[11.1.0.4395, )"
+        }
+      ]
+    },
+    "Atalasoft.PdfDoc.x64": {
+      "Id": "Atalasoft.PdfDoc.x64",
+      "Version": "11.1.0.4395",
+      "Dependencies": [
+        {
+          "Item1": "Atalasoft.Shared",
+          "Item2": "[11.1.0.4395, )"
+        }
+      ]
+    },
+    "Atalasoft.PdfDoc.x86": {
+      "Id": "Atalasoft.PdfDoc.x86",
+      "Version": "11.1.0.4395",
+      "Dependencies": [
+        {
+          "Item1": "Atalasoft.Shared",
+          "Item2": "[11.1.0.4395, )"
+        }
+      ]
+    },
+    "Atalasoft.Shared": {
+      "Id": "Atalasoft.Shared",
+      "Version": "11.1.0.4395",
+      "Dependencies": []
+    },
+    "AvalonEdit": {
+      "Id": "AvalonEdit",
+      "Version": "5.0.3",
+      "Dependencies": []
+    },
+    "BitMiracle.Docotic.Pdf": {
+      "Id": "BitMiracle.Docotic.Pdf",
+      "Version": "5.2.8369",
+      "Dependencies": []
+    },
+    "BouncyCastle": {
+      "Id": "BouncyCastle",
+      "Version": "1.8.1",
+      "Dependencies": []
+    },
+    "ClosedXML": {
+      "Id": "ClosedXML",
+      "Version": "0.87.1",
+      "Dependencies": [
+        {
+          "Item1": "DocumentFormat.OpenXml",
+          "Item2": "[2.5.0, )"
+        }
+      ]
+    },
+    "CsvHelper": {
+      "Id": "CsvHelper",
+      "Version": "2.13.5",
+      "Dependencies": []
+    },
+    "DocumentFormat.OpenXml": {
+      "Id": "DocumentFormat.OpenXml",
+      "Version": "2.5.0",
+      "Dependencies": []
+    },
+    "Extended.Wpf.Toolkit": {
+      "Id": "Extended.Wpf.Toolkit",
+      "Version": "2.8.0",
+      "Dependencies": []
+    },
+    "Humanizer.Core": {
+      "Id": "Humanizer.Core",
+      "Version": "2.4.2",
+      "Dependencies": []
+    },
+    "interop.domino.dll": {
+      "Id": "interop.domino.dll",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "Microsoft.AspNet.SignalR.Client": {
+      "Id": "Microsoft.AspNet.SignalR.Client",
+      "Version": "2.4.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.4, )"
+        }
+      ]
+    },
+    "Microsoft.Bcl": {
+      "Id": "Microsoft.Bcl",
+      "Version": "1.1.10",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Bcl.Build",
+          "Item2": "[1.0.14, )"
+        }
+      ]
+    },
+    "Microsoft.Bcl.Build": {
+      "Id": "Microsoft.Bcl.Build",
+      "Version": "1.0.14",
+      "Dependencies": []
+    },
+    "Microsoft.Exchange.WebServices": {
+      "Id": "Microsoft.Exchange.WebServices",
+      "Version": "2.2.0",
+      "Dependencies": []
+    },
+    "Microsoft.Net.Http": {
+      "Id": "Microsoft.Net.Http",
+      "Version": "2.2.29",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Bcl",
+          "Item2": "[1.1.10, )"
+        },
+        {
+          "Item1": "Microsoft.Bcl.Build",
+          "Item2": "[1.0.14, )"
+        }
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime": {
+      "Id": "Microsoft.Rest.ClientRuntime",
+      "Version": "2.3.10",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.8, )"
+        }
+      ]
+    },
+    "Microsoft.VisualStudio.OLE.Interop": {
+      "Id": "Microsoft.VisualStudio.OLE.Interop",
+      "Version": "7.10.6071",
+      "Dependencies": []
+    },
+    "Newtonsoft.Json": {
+      "Id": "Newtonsoft.Json",
+      "Version": "12.0.2",
+      "Dependencies": []
+    },
+    "NPOI": {
+      "Id": "NPOI",
+      "Version": "2.4.1",
+      "Dependencies": [
+        {
+          "Item1": "SharpZipLib",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "SharpZipLib": {
+      "Id": "SharpZipLib",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "System.ValueTuple": {
+      "Id": "System.ValueTuple",
+      "Version": "4.5.0",
+      "Dependencies": []
+    },
+    "UiPath": {
+      "Id": "UiPath",
+      "Version": "19.4.7054.14370",
+      "Dependencies": []
+    },
+    "UiPath.Database.Activities": {
+      "Id": "UiPath.Database.Activities",
+      "Version": "1.2.6863.32528",
+      "Dependencies": []
+    },
+    "UiPath.Excel.Activities": {
+      "Id": "UiPath.Excel.Activities",
+      "Version": "2.5.3",
+      "Dependencies": [
+        {
+          "Item1": "ClosedXML",
+          "Item2": "[0.87.1, )"
+        },
+        {
+          "Item1": "CsvHelper",
+          "Item2": "[2.13.5, )"
+        },
+        {
+          "Item1": "DocumentFormat.OpenXml",
+          "Item2": "[2.5.0, )"
+        },
+        {
+          "Item1": "Microsoft.VisualStudio.OLE.Interop",
+          "Item2": "[7.10.6071, )"
+        },
+        {
+          "Item1": "NPOI",
+          "Item2": "[2.4.1, )"
+        },
+        {
+          "Item1": "SharpZipLib",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "UiPath.Mail.Activities": {
+      "Id": "UiPath.Mail.Activities",
+      "Version": "1.4.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Exchange.WebServices",
+          "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "BouncyCastle",
+          "Item2": "[1.8.1, )"
+        },
+        {
+          "Item1": "interop.domino.dll",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "UiPath.PDF.Activities": {
+      "Id": "UiPath.PDF.Activities",
+      "Version": "2.0.1",
+      "Dependencies": [
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "BitMiracle.Docotic.Pdf",
+          "Item2": "[5.2.8369, )"
+        }
+      ]
+    },
+    "UiPath.System.Activities": {
+      "Id": "UiPath.System.Activities",
+      "Version": "19.4.0",
+      "Dependencies": [
+        {
+          "Item1": "CsvHelper",
+          "Item2": "[2.13.5, )"
+        },
+        {
+          "Item1": "Microsoft.AspNet.SignalR.Client",
+          "Item2": "[2.4.0, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.10, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        }
+      ]
+    },
+    "UiPath.UIAutomation.Activities": {
+      "Id": "UiPath.UIAutomation.Activities",
+      "Version": "19.4.1",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.Vision",
+          "Item2": "[1.5.0, )"
+        },
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Extended.Wpf.Toolkit",
+          "Item2": "[2.8.0, )"
+        },
+        {
+          "Item1": "Humanizer.Core",
+          "Item2": "[2.4.2, )"
+        },
+        {
+          "Item1": "UiPath",
+          "Item2": "[19.4.7054.14370, )"
+        }
+      ]
+    },
+    "UiPath.Vision": {
+      "Id": "UiPath.Vision",
+      "Version": "1.5.0",
+      "Dependencies": []
+    }
+  }
+}

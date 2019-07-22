@@ -1,0 +1,53 @@
+<div ng-controller='RegisterHospitalController'>
+
+
+    <!-- <div >
+                <div style="opacity: 0.2; background-color:aliceblue;" class="jumbotron">
+                    <h1 style="color:black">Register Hospital</h1>
+                    
+                </div>
+                <p>Helping Hand</p>
+    
+            </div> -->
+
+
+    <div>
+
+        <table id='registerPatient' class="table table-bordered"
+            style="width:100% ;color: azure;background: rgba(200, 130, 140, 0.2);">
+        <tr>
+                <td>Enter Hospital ID : </td>
+                <td><input type="text" id="hospitalId" class="form-control" ng-model="hospitalData.hospitalId"></td>
+                <td>Enter Hospital Name : </td>
+                <td><input type="text" class="form-control" ng-model="hospitalData.hospitalName"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Hospital Phone Number : </td>
+                <td><input type="text" id="hospitalPhoneNumber" class="form-control" ng-model="hospitalData.hospitalPhoneNumber"  maxlength="10"></td>
+                <td>Enter Hospital Email : </td>
+                <td><input type="email" class="form-control" ng-model="hospitalData.hospitalEmail"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Hospital Address : </td>
+                <td><input type="text" class="form-control" ng-model="hospitalData.hospitalAddress"></td>
+                <td>Enter Registration Date : </td>
+                <td><input type="text" class="form-control" ng-model="hospitalData.registrationDate"></td>
+            </tr>
+
+            <tr>
+                <td colspan="4"><input type="submit" value="Register Hospital" ng-click="registerHospital()" style='background: #3a5a3a'
+                        class="btn btn-primary pull-right"></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+
+
+
+
+</div>

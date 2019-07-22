@@ -1,0 +1,5 @@
+---
+applications:
+  - name: ida-service-new-devops
+    memory: 750MB
+    path: target/IdaNewService-0.0.1-SNAPSHOT.jar

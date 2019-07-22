@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Helping Hands </title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../Client/src/js/vendor/angularJs.js"></script>
+    <script src="../Client/src/js/vendor/ui-bootstrap-tpls.js"></script>
+    <script src="../Client/src/js/app/app.js"></script>
+    <script src="../Client/src/js/vendor/angular-ui-router.js"></script>
+    <script src="../Client/src/js/app/routing.js"></script>
+    <link rel="shortcut icon" href="">
+    <link href="../Client/src/css/vendor/toastr.css" rel="stylesheet" />
+    <script src="../Client/src/js/vendor/toastr.js"></script>
+    <link href="../Client/src/css/vendor/font-awesome.css" rel="stylesheet">
+    <script src="../Client/src/js/app/dashboard.js"></script>
+    <link rel="stylesheet" href="../Client/src/css/app/style.css">
+    <script src="../Client/src/js/app/login.js"></script>
+    <script src="../Client/src/js/app/viewRequest.js"></script>
+    <script src="../Client/src/js/app/registerPatient.js"></script>
+    <script src="../Client/src/js/app/registerHospital.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.8/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="../Client/src/theme/bootstrap-theme-slate.min.css">
+
+</head>
+
+<body ng-app="helpingHands" style="width: 98%;overflow-x:hidden;" background="../Client/src/images/background.jpg"
+    ng-controller="DashboardController" ng-init="getUser()">
+
+    <div ng-controller='DashboardController'>
+
+        <div>
+            <div class="container-fluid" style='height: 30px !IMPORTANT;'>
+                <div>
+                    <span> <img src="../Client/src/images/title.png" style='margin-top: 20px;position: absolute;'
+                            class="img-rounded" alt="Cinque Terre" width="350" height="70"></span> &nbsp
+                    <h3>
+                        <small style="margin-right: 80px;" class="pull-right">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle" data-toggle="dropdown">
+                                    <p style="color:white;"><b>Logged In as  Admin {{name}} </b> <i ng-click="logOut()" style=' cursor: pointer;   font-size: 30px;position: absolute;margin-top: -5px;
+                                        margin-left: 175px;' class="glyphicon glyphicon-off"></i> 
+
+                                </span>
+
+                            </div>
+                        </small> </h3>
+
+                </div>
+            </div>
+            <div class="row"><br></div>
+            <div class="row"><br></div>
+
+            <div class="row">
+
+                <div class="col-lg-2" style="position: absolute;margin-top: 30px;margin-left: 10px;color:azure">
+                    <div>
+                        <div class="panel-group" id="accordion">
+                            <div ng-class="{activee : activeMenu === 'viewReq'}" class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <!--  <span class="glyphicon glyphicon-folder-close"> -->
+                                        </span> &nbsp<a style='color:azure' ng-click="activeMenu = 'viewReq'"
+                                            data-parent="#accordion" id="#viewReq" ui-sref="viewRequest">View
+                                            Request</a>
+                                    </h4>
+                                </div>
+
+                            </div>
+
+                            <div ng-class="{activee : activeMenu === 'RegPatient'}" class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <!-- <span class="glyphicon glyphicon-plus"> -->
+                                        </span> &nbsp<a style='color:azure' ng-click="activeMenu = 'RegPatient'"
+                                            data-parent="#accordion" ui-sref="registerPatient">Register Patient</a>
+                                    </h4>
+                                </div>
+
+                            </div>
+
+                            <div ng-class="{activee : activeMenu === 'RegHospital'}" class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <!--  <span class="glyphicon glyphicon-folder-close"> -->
+                                        </span> &nbsp<a style='color:azure' ng-click="activeMenu = 'RegHospital'"
+                                            data-parent="#accordion" id="#RegHospital"
+                                            ui-sref="registerHospital">Register Hospital</a>
+                                    </h4>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 container" style="position: absolute;margin-top: 30px;margin-left: 260px" ui-view>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

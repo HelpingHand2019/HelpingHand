@@ -1,0 +1,18 @@
+
+ .activee { 
+border: white solid 1px !Important;
+} 
+
+#reqTable_filter {
+    color:azure;
+}
+
+#reqTable_info  {
+    color:azure;
+}
+
+#registerPatient td {
+    
+        border:none
+    
+}

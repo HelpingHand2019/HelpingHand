@@ -1,0 +1,78 @@
+
+<html>
+<head>
+ <script src="../Client/src/js/vendor/angularJs.js"></script>
+    <script src="../Client/src/js/vendor/ui-bootstrap-tpls.js"></script>
+    <script src="../Client/src/js/app/app.js"></script>
+    <script src="../Client/src/js/vendor/angular-ui-router.js"></script>
+    <script src="../Client/src/js/app/routing.js"></script>
+    <link href="../Client/src/css/vendor/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="shortcut icon" href="">
+    <script src="../Client/src/js/vendor/jquery.js"></script>
+    <link href="../Client/src/css/vendor/toastr.css" rel="stylesheet" />
+    <script src="../Client/src/js/vendor/toastr.js"></script>
+    <script src="../Client/src/js/vendor/bootstrap.js"></script>
+    <link href="../Client/src/css/vendor/font-awesome.css" rel="stylesheet">    
+    <script src="../Client/src/js/app/dashboard.js"></script>
+    <link rel="stylesheet" href="../Client/src/theme/bootstrap-theme-slate.min.css">
+    <link rel="stylesheet" href="../Client/src/css/app/style.css">
+    <script src="../Client/src/js/app/login.js"></script>
+<style class="cp-pen-styles">* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+</style>
+<link href="../Client/src/css/app/pageStyle.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<body ng-app='helpingHands' style='overflow-y: hidden; overflow-x:hidden;' background="../Client/src/images/background.jpg"  >
+
+<div class='row '> 
+
+    <div class=''>
+
+    </div>
+<img style='margin-top: 120px;margin-left: 180px;height: 400px;width: 600px;' src="../Client/src/images/title2.png" alt="Italian Trulli">
+
+</div>
+
+
+<div class='row '> 
+
+        <div class=''>
+    
+        </div>
+    <img style='margin-left: 300px; margin-top: 10px; height: 100px; width: 400px' src="../Client/src/images/title.png" alt="Italian Trulli">
+    
+    </div>
+
+
+<div ng-controller='LoginController' style='margin-left: 900px !Important' class="wrapper">
+    <div class="container">
+        <div class="stencil">
+            <div class="line">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="border-triangle"></div>
+        <div class="content-triangle"></div>
+        <div class="enter-triangle-one"></div>
+        <div class="enter-triangle-two"></div>
+        <form onsubmit="return false" method="post" id="form">
+            <div class="title">
+                <label>LOG INTO</label>
+                <label>SYSTEM</label>
+            </div>
+            <div class="input-inform">
+                <input type="text" style="color:#192041" ng-model="username" name="name" id="name" placeholder="LOGIN..." />
+                <input type="password" style="color:#192041" ng-model="password" name="password" id="password" placeholder="PASSWORD..." />
+          <!--     //  <input type="button" value="FORGOT PASSWORD?" id="forgot-pas"/> -->
+            </div>
+            <div class="enter">
+                <label for="enter"></label>
+                <input type="submit" name="submit" ng-click="login()" value="ENTER" id="enter"/>
+            </div>
+        </form>    
+    </div>
+</div>
+
+</body></html>

@@ -1,0 +1,51 @@
+<div ng-controller='RegisterPatientController'>
+
+    <!--  
+            <div >
+                <div style="opacity: 0.2; background-color:aliceblue;" class="jumbotron">
+                    <h1 style="color:black">Register Patient</h1>
+                    
+                </div>
+                <p>Helping Hand</p>
+    
+            </div> -->
+
+    <div>
+<form>
+        <table id='registerPatient' class="table table-bordered"
+            style="width:100% ;color: azure;background: rgba(200, 130, 140, 0.2);">
+
+            <tr>
+                <td>Enter Aadhar No: </td>
+                <td><input type="text" id="patientId" class="form-control" ng-model="patientData.patientId" minlength="12" maxlength="12"></td>
+                <td>Enter Patient Name : </td>
+                <td><input type="text" class="form-control" ng-model="patientData.patientName"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Patient Age : </td>
+                <td><input type="text" id="patientAge" class="form-control" ng-model="patientData.patientAge"></td>
+                <td>Enter Patient Email : </td>
+                <td><input type="email" class="form-control" ng-model="patientData.patientEmail"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Patient Phone Number : </td>
+                <td><input type="text" class="form-control" id="patientPhoneNumber" ng-model="patientData.patientPhoneNumber" maxlength="10"></td>
+                <td>Enter Patient Location : </td>
+                <td><input type="text" class="form-control" ng-model="patientData.patientAddress"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Patient Disease; : </td>
+                <td><input type="text" class="form-control" ng-model="patientData.patientDisease"></td>
+                <td colspan="2"><input type="submit" value="Register Patient" ng-click="registerPatient()" style='background: #3a5a3a'
+                        class="btn btn-primary pull-right"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+
+
+
+</div>
