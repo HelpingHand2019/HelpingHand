@@ -21,7 +21,7 @@
     "express-session": "^1.15.3",
     "fs": "0.0.1-security",
     "handlebars": "^4.0.10",
-    "https-proxy-agent": "^1.0.0",
+    "https-proxy-agent": "^5.0.0",
     "is-valid-json": "^1.0.2",
     "lodash.get": "^4.4.2",
     "mock-browser": "^0.92.14",
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "http-proxy-agent": "^1.0.0",
-    "https-proxy-agent": "^1.0.0"
+    "https-proxy-agent": "^5.0.0"
   }
 
 }
